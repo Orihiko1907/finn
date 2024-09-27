@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: #2CB3F3;
+    display: flex;
+    flex-direction: column; //vai mudar o eixo x 
+    justify-content: center; // eixo x largura
+    align-items: center; //eixo da  altura 
+    height: 100vh;
+    // essa propriedade muda o eixo entao o justfy vai ser usado para a altura e o align sera usado para a largura
+}
+ 
+.capuz{
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70vw;
+    height: 80vh;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    margin-top: 40px;
+}
+
+.rosto{
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background-color: #FFE1C9;
+    width: 40vw;
+    height: 60vh;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+
+    div{
+        
+        background-color: black;
+        width: 10vw;
+        height: 10vh;
+        border-radius: 100%;
+
+    }
+}
+
+.olho1{
+    position: relative;
+    top: 40px;
+    left: 40px;
+
+}
+
+.olho2{
+    position: relative;
+    top: 40px;
+    right: 40px;
+
+}
+
+//position
